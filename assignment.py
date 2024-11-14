@@ -1,0 +1,12 @@
+hobbies=['dancing','art','singing','reading']
+print(hobbies[-1])
+print(hobbies[2])
+print(hobbies[1])
+print(hobbies[0])
+hobbies.append('writing')
+print(hobbies)
+popped_hobbies=hobbies.pop()
+print(hobbies)
+print(popped_hobbies)
+hobbies.sort()
+print(hobbies)
